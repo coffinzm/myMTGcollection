@@ -9,11 +9,11 @@ Have your bot follow mine--I'll have mine follow yours back!
 
 ## Collection Management and Card IDs: ##
 
-I manage my collection using the wonderful **Magic Assistant**. http://mtgbrowser.sourceforge.net/wiki/index.php/Main_Page
+I manage my collection using the amazing **Magic Assistant**. http://mtgbrowser.sourceforge.net/wiki/index.php/Main_Page
 
 With this program, I am able to export a text file containing each card's unique **Multiverse ID**.
 
-It is not necessary to use MTG Assistant to make the program function, but you will at least need a list of Multiverse IDs.
+It is not necessary to use MTG Assistant to make the bot function. However, you will at least need a list of Multiverse IDs.
 
 Multiverse IDs are assigned by WoTC and can be found at the end of each card's Gatherer URL. For example: https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=9764
 
@@ -22,16 +22,16 @@ Multiverse IDs are assigned by WoTC and can be found at the end of each card's G
 I've uploaded populated versions of the following files to demonstrate how they work. You will want to delete/replace their contents before using this code for your own collection.
 
 *Text Files*
-+ *cardid.txt*: contains a list of Multiverse IDs. This is the file the bot reads from to select a random card.
++ *cardid.txt*: contains a list of Multiverse IDs. The bot reads this file to select a random card.
 + *posted.txt*: contains a list of cards which have already been posted. This prevents duplicate posts.
-+ *log.txt*: a log showing the details of each post. Was used in development for debugging
++ *log.txt*: a log detailing each post. Was used in development for debugging.
 
 *Ruby Scripts*
 + *mymtgbotpublic.rb*: The backbone of the operation. Handles random card selection/posting to Twitter.
 + *launcher_public.rb*: A script that runs *mymtgcollectionpublic.rb* once every twelve hours.
 
 ## Required Software ##
-This whole thing is made possible by some wonderful pieces of software:
+This whole thing is made possible by some very helpful pieces of software:
 + Ruby Gem: *rest-client* https://rubygems.org/gems/rest-client/versions/1.8.0
 + Ruby Gem: *twitter* https://rubygems.org/gems/twitter/versions/6.2.0
 + Ruby Gem: *json* https://rubygems.org/gems/json/versions/1.8.3
@@ -45,8 +45,8 @@ https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens
 + Update *path* on line seven of *launcher_public.rb* to reflect its location.
 + Secure a list of Multiverse IDs and add them to *cardid.txt*. This file represents your collection.
 + Delete the contents of *log.txt* and *posted.txt*
-+ Test the configuration by issuing command "ruby mymtgbotpublic.rb". You should see console/log output and, if correctly setup, a Tweet will post
-+ Execute the command "ruby launcher_public.rb" and allow the program to execute. You're all set!
++ Test the configuration by navigating to the directory containing the program and issuin theg command "ruby mymtgbotpublic.rb". You should see console/log output and, if correctly setup, a Tweet will post
++ Execute the command "ruby launcher_public.rb" and allow the program to run. You will not see any output unless a card is being posted. This creates a thread which will run in the backgroud. You may exit the console used to execute the script. You're all set!
 
 ## Notes ##
 + The wonderful Scryfall API makes this all possible. Support their work! https://scryfall.com/docs/api
