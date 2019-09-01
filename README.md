@@ -22,7 +22,7 @@ Multiverse IDs are assigned by WoTC and can be found at the end of each card's G
 I've uploaded populated versions of the following files to demonstrate how they work. You will want to delete/replace their contents before using this code for your own collection.
 
 *Text Files*
-+ *cardid.txt*: contains a list of Multiverse IDs. The bot reads this file to select a random card.
++ *cardid.txt*: contains a list of Multiverse IDs. The bot reads this file to select a random card. This represents my collection.
 + *posted.txt*: contains a list of cards which have already been posted. This prevents duplicate posts.
 + *log.txt*: a log detailing each post. Was used in development for debugging.
 
