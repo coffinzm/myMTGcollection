@@ -5,9 +5,11 @@ This Twitter bot is coded in Ruby and should run across platforms. Mine lives on
 
 My bot's posts can be found here: https://twitter.com/mymtgcollection
 
+Have your bot follow mine--I'll have mine follow yours back!
+
 ## Collection Management and Card IDs: ##
 
-I manage my collection using the wonderufl **Magic Assistant**. http://mtgbrowser.sourceforge.net/wiki/index.php/Main_Page
+I manage my collection using the wonderful **Magic Assistant**. http://mtgbrowser.sourceforge.net/wiki/index.php/Main_Page
 
 With this program, I am able to export a text file containing each card's unique **Multiverse ID**.
 
@@ -18,6 +20,7 @@ Multiverse IDs are assigned by WoTC and can be found at the end of each card's G
 
 ## Project Files ##
 I've uploaded populated versions of the following files to demonstrate how they work. You will want to delete/replace their contents before using this code for your own collection.
+
 *Text Files*
 + *cardid.txt*: contains a list of Multiverse IDs. This is the file the bot reads from to select a random card.
 + *posted.txt*: contains a list of cards which have already been posted. This prevents duplicate posts.
