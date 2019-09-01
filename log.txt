@@ -1,0 +1,45 @@
+### Loop begins at 22:50 on 31/08/2019 ###
+22:50,31/08/2019: Checked /home/pi/Bots/cardid.txt size. 3024 cards.
+22:50,31/08/2019: Selected card 1043
+22:50,31/08/2019: Checked /home/pi/Bots/posted.txt card database size. 21
+22:50,31/08/2019: Iterating to prevent duplicate posts.
+22:50,31/08/2019: Built API URL: https://api.scryfall.com/cards/multiverse/394591
+22:50,31/08/2019: Checking card layout type.
+22:50,31/08/2019: Layout is standard
+22:50,31/08/2019: Harbinger of the Hunt
+22:50,31/08/2019: https://img.scryfall.com/cards/large/front/c/b/cbeb21b8-8817-48c2-8ae8-25221600ce32.jpg?1562793172
+22:50,31/08/2019: Dragons of Tarkir
+22:50,31/08/2019: Downloaded card art: /home/pi/Bots/newCard.jpeg
+22:50,31/08/2019: Posted to Twitter! Harbinger of the Hunt, Dragons of Tarkir, #mtg, /home/pi/Bots/newCard.jpeg
+22:50,31/08/2019: Appending 394591 to posted file
+### Loop ends at 22:50 on 31/08/2019 ###
+### Loop begins at  2:08 on 01/09/2019 ###
+ 2:08,01/09/2019: Checked /home/pi/Bots/cardid.txt size. 3024 cards.
+ 2:08,01/09/2019: Selected card 2888
+ 2:08,01/09/2019: Checked /home/pi/Bots/posted.txt card database size. 22
+ 2:08,01/09/2019: Iterating to prevent duplicate posts.
+ 2:08,01/09/2019: Built API URL: https://api.scryfall.com/cards/multiverse/464159
+ 2:08,01/09/2019: Checking card layout type.
+ 2:08,01/09/2019: Layout is standard
+ 2:08,01/09/2019: Nature's Chant
+ 2:08,01/09/2019: https://img.scryfall.com/cards/large/front/9/a/9a17cbf6-3f38-4bc6-8448-881e19cffe06.jpg?1562202385
+ 2:08,01/09/2019: Modern Horizons
+ 2:08,01/09/2019: Downloaded card art: /home/pi/Bots/newCard.jpeg
+ 2:08,01/09/2019: Posted to Twitter! Nature's Chant, Modern Horizons, #mtg, /home/pi/Bots/newCard.jpeg
+ 2:08,01/09/2019: Appending 464159 to posted file
+### Loop ends at  2:08 on 01/09/2019 ###
+### Loop begins at 10:58 on 01/09/2019 ###
+10:58,01/09/2019: Checked /home/pi/Bots/cardid.txt size. 3024 cards.
+10:58,01/09/2019: Selected card 361
+10:58,01/09/2019: Checked /home/pi/Bots/posted.txt card database size. 23
+10:58,01/09/2019: Iterating to prevent duplicate posts.
+10:58,01/09/2019: Built API URL: https://api.scryfall.com/cards/multiverse/253735
+10:58,01/09/2019: Checking card layout type.
+10:58,01/09/2019: Layout is standard
+10:58,01/09/2019: Tricks of the Trade
+10:58,01/09/2019: https://img.scryfall.com/cards/large/front/8/c/8c796ef9-4061-4f82-9ee9-3bc446804ee9.jpg?1562556822
+10:58,01/09/2019: Magic 2013
+10:58,01/09/2019: Downloaded card art: /home/pi/Bots/newCard.jpeg
+10:58,01/09/2019: Posted to Twitter! Tricks of the Trade, Magic 2013, #mtg, /home/pi/Bots/newCard.jpeg
+10:58,01/09/2019: Appending 253735 to posted file
+### Loop ends at 10:58 on 01/09/2019 ###
