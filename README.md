@@ -27,7 +27,8 @@ I've uploaded populated versions of the following files to demonstrate how they 
 + *mymtgbotpublic.rb*: The backbone of the operation. Handles random card selection/posting to Twitter.
 + *launcher_public.rb*: A script that runs *mymtgcollectionpublic.rb* once every twelve hours.
 
-## Required Softare ##
+## Required Software ##
+This whole thing is made possible by some wonderful pieces of software:
 + Ruby Gem: *rest-client* https://rubygems.org/gems/rest-client/versions/1.8.0
 + Ruby Gem: *twitter* https://rubygems.org/gems/twitter/versions/6.2.0
 + Ruby Gem: *json* https://rubygems.org/gems/json/versions/1.8.3
