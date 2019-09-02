@@ -1,7 +1,7 @@
 # myMTGcollection
 Disclaimer: I am a hobbyist coder -- my code could probably be improved upon/be prettier. Please tweak it to your heart's content.
 
-This Twitter bot is coded in Ruby and should run across platforms. Mine lives on a Raspberry Pi Zero running Raspbian.
+This Twitter bot is coded in Ruby and should run across platforms. My install lives on a Raspberry Pi Zero running Raspbian.
 
 My bot's posts can be found here: https://twitter.com/mymtgcollection
 
