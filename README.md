@@ -1,5 +1,5 @@
 # myMTGcollection
-Disclaimer: I am a hobbyist coder -- my code could probably be improved upon/be prettier. Feel free to tweak to your heart's content.
+Disclaimer: I am a hobbyist coder -- my code could probably be improved upon/be prettier. Please tweak it to your heart's content.
 
 This Twitter bot is coded in Ruby and should run across platforms. Mine lives on a Raspberry Pi Zero running Raspbian.
 
